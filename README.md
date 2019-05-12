@@ -2,6 +2,8 @@
 
 ## LWC for searching thru Salesforce records by setting sObject and fields via the builder 🛠
 
+### [Live Demo Link](https://jsmithdev-developer-edition.na85.force.com/s/)
+
 ### Demo view
 ![demo](https://i.imgur.com/PLw998J.png)
 

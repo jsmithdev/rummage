@@ -1,0 +1,34 @@
+
+<template>
+    <lightning-card title={header} icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            
+            <lightning-input label="Search" value={query} type="search" onchange={handleKeyChange} class="slds-m-bottom_small" ></lightning-input>
+            
+            <template if:true={objects.length}>
+                <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_col-bordered slds-table_striped">
+                    <thead>
+                        <tr class="slds-text-title_caps">
+                            
+                            <th scope="col">
+                                <div title="Name">{object}</div>
+                            </th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={objects} for:item="obj">
+                            <tr key={obj.key}>
+                                <th scope="col">
+                                    {obj.demo}
+                                </th>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+
+            </template>
+            
+        </div>
+    </lightning-card>
+</template>

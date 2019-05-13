@@ -11,14 +11,3 @@
 ### Builder view (works in App & Community Builder)
 
 ![builder](https://i.imgur.com/LgdyMxD.png)
-
-#### Note: You'll probably want to add ```**/**/README.md``` to your project's .forceignore file
-
-```
-# Defaults
-**/jsconfig.json
-**/.eslintrc.json
-
-# It will fail to deploy a README to an org so ignore them  
-**/**/README.md
-```

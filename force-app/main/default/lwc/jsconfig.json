@@ -3,14 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/reactiveTable": [
+                "reactiveTable/reactiveTable.js"
+            ],
             "c/rummageBar": [
                 "rummageBar/rummageBar.js"
             ],
             "c/rummageView": [
                 "rummageView/rummageView.js"
-            ],
-            "c/reactiveTable": [
-                "reactiveTable/reactiveTable.js"
             ]
         }
     },

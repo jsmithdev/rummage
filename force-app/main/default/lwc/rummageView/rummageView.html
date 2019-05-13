@@ -1,0 +1,19 @@
+
+<template>
+    <lightning-card title={header} icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            
+            <c-rummage-bar 
+                object={object} 
+                fields={fields}
+                onrummaged={handleObjects}>
+            </c-rummage-bar>
+
+
+            <c-reactive-table 
+                objects={objects}>
+            </c-reactive-table>
+            
+        </div>
+    </lightning-card>
+</template>

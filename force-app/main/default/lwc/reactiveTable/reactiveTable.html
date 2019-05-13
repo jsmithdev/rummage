@@ -1,0 +1,12 @@
+<template>
+    
+    <template if:true={data.length}>
+        <lightning-datatable
+            key-field="id"
+            data={data}
+            columns={columns}
+            max-row-selection="1">
+        </lightning-datatable>
+    </template>
+
+</template>

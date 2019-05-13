@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/rummageBar": [
+                "rummageBar/rummageBar.js"
+            ],
+            "c/rummageView": [
+                "rummageView/rummageView.js"
+            ],
+            "c/reactiveTable": [
+                "reactiveTable/reactiveTable.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../.sfdx/typings/lwc/**/*.d.ts",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

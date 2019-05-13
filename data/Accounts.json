@@ -1,0 +1,111 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "GenePoint",
+            "AccountNumber": "CC978213",
+            "Phone": "(650) 867-3450"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "United Oil & Gas, UK",
+            "AccountNumber": "CD355119-A",
+            "Phone": "+44 191 4956203"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "United Oil & Gas, Singapore",
+            "AccountNumber": "CD355120-B",
+            "Phone": "(650) 450-8810"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Edge Communications",
+            "AccountNumber": "CD451796",
+            "Phone": "(512) 757-6000"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "Burlington Textiles Corp of America",
+            "AccountNumber": "CD656092",
+            "Phone": "(336) 222-7000"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "Pyramid Construction Inc.",
+            "AccountNumber": "CC213425",
+            "Phone": "(014) 427-4427"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Name": "Dickenson plc",
+            "AccountNumber": "CC634267",
+            "Phone": "(785) 241-6200"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Name": "Grand Hotels & Resorts Ltd",
+            "AccountNumber": "CD439877",
+            "Phone": "(312) 596-1000"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Name": "Express Logistics and Transport",
+            "AccountNumber": "CC947211",
+            "Phone": "(503) 421-7800"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Name": "University of Arizona",
+            "AccountNumber": "CD736025",
+            "Phone": "(520) 773-9050"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef11"
+            },
+            "Name": "United Oil & Gas Corp.",
+            "AccountNumber": "CD355118",
+            "Phone": "(212) 842-5500"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef12"
+            },
+            "Name": "sForce",
+            "Phone": "(415) 901-7000"
+        }
+    ]
+}

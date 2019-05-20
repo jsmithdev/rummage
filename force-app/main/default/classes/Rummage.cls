@@ -4,7 +4,7 @@ public with sharing class Rummage {
     public static List<sObject> search(List<String> fieldArray, String base, String query) {
 
         if(base == '' || fieldArray.size() == 0 || query == ''){ return null; }
-        
+
         
         Integer LMT = 10; // -1 for no limit
 

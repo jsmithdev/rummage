@@ -1,9 +1,10 @@
 /* eslint-disable no-console */
 import { api, LightningElement, track } from 'lwc';
 
-const viewable = ['Name', 'Phone']
 
 export default class ReactiveTable extends LightningElement {
+
+    @api viewable
 
     @track data = []
     @track columns = []
@@ -16,17 +17,16 @@ export default class ReactiveTable extends LightningElement {
 
         if(!data){ return }
         
-
         const [ record ] = data
+
+        const viewable = this.viewable.split(',').map(x => x.trim())
 
         const fields =  Object.keys(record).filter(x => viewable.includes(x))
         
         const columns = fields.map(x => ({ label: this.labeler(x), fieldName: x }))
         
-        
-        console.dir( 'ReactiveTable.set.object data => ' )
-        console.dir( JSON.parse( JSON.stringify( {columns, data} ) ) )
-
+        //console.dir( 'ReactiveTable.set.object data => ' )
+        //console.dir( JSON.parse( JSON.stringify( {viewable} ) ) )
 
         this.columns = columns
         this.data = data
@@ -34,7 +34,7 @@ export default class ReactiveTable extends LightningElement {
 
     labeler(raw){
 
-        const s = raw.replace('__c', '')
+        const s = raw.replace('__c', '').replace(/_/gi, ' ')
         
         return s
     }

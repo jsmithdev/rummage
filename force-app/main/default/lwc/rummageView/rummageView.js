@@ -5,6 +5,7 @@ export default class RummageView extends LightningElement {
 
     @api header = ''
     @api object = ''
+    @api viewable;
     @api fields = []
 
     @track objects;

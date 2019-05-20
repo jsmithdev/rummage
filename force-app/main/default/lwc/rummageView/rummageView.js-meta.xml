@@ -2,33 +2,30 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="rummageView">
     <apiVersion>45.0</apiVersion>
     <isExposed>true</isExposed>
-
     <targets>
         <target>lightning__RecordPage</target>
         <target>lightning__AppPage</target>
         <target>lightningCommunity__Page</target>
         <target>lightningCommunity__Default</target>
     </targets>
-
-    <targetConfigs> 
-
+    <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="header" type="String" ></property>
-            <property name="object" type="String" ></property>
-            <property name="fields" type="String" ></property>
+            <property name="header" type="String"/>
+            <property name="object" type="String"/>
+            <property name="fields" type="String"/>
+            <property name="viewable" type="String"/>
         </targetConfig>
-      
         <targetConfig targets="lightning__AppPage">
-            <property name="header" type="String" ></property>
-            <property name="object" type="String" ></property>
-            <property name="fields" type="String" ></property>
+            <property name="header" type="String"/>
+            <property name="object" type="String"/>
+            <property name="fields" type="String"/>
+            <property name="viewable" type="String"/>
         </targetConfig>
-      
         <targetConfig targets="lightningCommunity__Default">
-            <property name="header" type="String" ></property>
-            <property name="object" type="String" ></property>
-            <property name="fields" type="String" ></property>
+            <property name="header" type="String"/>
+            <property name="object" type="String"/>
+            <property name="fields" type="String"/>
+            <property name="viewable" type="String"/>
         </targetConfig>
-
-    </targetConfigs> 
+    </targetConfigs>
 </LightningComponentBundle>

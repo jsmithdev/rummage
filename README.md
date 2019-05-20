@@ -22,7 +22,8 @@ String data types include Text, Phone, Picklist, URL, etc.
 
 If you need to search other data types, creating a text based formula field may help
 
-**Example:** TEXT( Expiration_Date__c )
+**Formula Example 1:** TEXT( Expiration_Date__c )
+**Formula Example 2:** Primary_Contact__r.FirstName +' '+ Primary_Contact__r.LastName
 
 ## Deploy
 

@@ -1,16 +1,28 @@
-# 🔍 Rummage 🐒
+# Rummage 🐒
 
-## LWC for searching thru Salesforce records by setting sObject and fields via the builder 🛠
+## Salesforce LWC for searching thru records by setting sObject and fields via the builder 🛠
 
-### [Simple Demo](https://jsmithdev-developer-edition.na85.force.com/s/)
+### [🔍 Demo](https://jsmithdev-developer-edition.na85.force.com/s/)
 
-### Screenie of [\<rummage-view />](force-app/main/default/lwc/reactiveView) containing [\<rummage-bar />](force-app/main/default/lwc/reactiveTable) and [\<reactive-table />](force-app/main/default/lwc/reactiveTable) 
+### Screenie of [rummage-view](force-app/main/default/lwc/reactiveView) containing [rummage-bar](force-app/main/default/lwc/reactiveTable) and [reactive-table](force-app/main/default/lwc/reactiveTable) 
 
 ![demo](https://i.imgur.com/2lQFYnp.png)
 
 ### Builder view (works in App & Community Builder)
 
 ![builder](https://i.imgur.com/LgdyMxD.png)
+
+## Limits
+
+This uses SOQL's LIKE operator to preform searches via the accompanying Rummage Apex class
+
+In SOQL, the LIKE operator supports **string fields only** which is stated in the docs [here](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_comparisonoperators.htm)
+
+String data types include Text, Phone, Picklist, URL, etc.
+
+If you need to search other data types, creating a text based formula field may help
+
+**Example:** TEXT( Expiration_Date__c )
 
 ## Deploy
 

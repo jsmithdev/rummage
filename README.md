@@ -1,14 +1,14 @@
 # Rummage 🐒
 
-## Salesforce LWC for searching thru records by setting sObject and fields via the builder 🛠
+## Salesforce LWC for searching thru records by setting sObject and fields as attributes via parent component or the App or Community builders 🛠
 
 ### [🔍 Demo](https://jsmithdev-developer-edition.na85.force.com/s/)
 
-### Screenie of [rummage-view](force-app/main/default/lwc/reactiveView) containing [rummage-bar](force-app/main/default/lwc/reactiveTable) and [reactive-table](force-app/main/default/lwc/reactiveTable) 
+### Screenie of [rummage-view](force-app/main/default/lwc/rummageView) containing [rummage-bar](force-app/main/default/lwc/reactiveTable) and [reactive-table](force-app/main/default/lwc/reactiveTable) 
 
 ![demo](https://i.imgur.com/2lQFYnp.png)
 
-### Builder view (works in App & Community Builder)
+### Builder view
 
 ![builder](https://i.imgur.com/LgdyMxD.png)
 
@@ -23,6 +23,7 @@ String data types include Text, Phone, Picklist, URL, etc.
 If you need to search other data types, creating a text based formula field may help
 
 **Formula Example 1:** TEXT( Expiration_Date__c )
+
 **Formula Example 2:** Primary_Contact__r.FirstName +' '+ Primary_Contact__r.LastName
 
 ## Deploy
